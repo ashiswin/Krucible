@@ -68,3 +68,31 @@ html, body {
 .pane {
 	padding: 2vh;
 }
+
+nav {
+	padding: 0;
+	margin: 0;
+}
+
+.navbar {
+	padding: 0 !important;
+}
+.navbar-brand{
+    margin: 5px 16px 8px 16px !important;
+}
+
+#navUserDropdown {
+	background: #F6F6F8;
+	text-align: center;
+}
+
+#navUserDropdown > li {
+	margin-left: 4vh;
+	margin-right: 4vh;
+	vertical-align: center;
+}
+
+#navUser {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}

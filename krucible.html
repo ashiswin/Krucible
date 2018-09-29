@@ -12,15 +12,23 @@
 <body>
 	<!-- Static navbar -->
 	<div class="container-fluid no-margin" id="nav-container">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-light bg-white">
 		  <a class="navbar-brand" href="#">
-		    <img src="img/logo.png" width="30" height="30" alt="">&nbsp;&nbsp;<span class="page-title" style="font-size: 1em;">K</span><span class="page-title" style="font-size: 0.8em;">RUCIBLE</span>
+		    <img src="img/logo.png" width="30" height="30" alt="" style="margin-top: -12px">&nbsp;&nbsp;<span class="page-title" style="font-size: 1.5em;">K</span><span class="page-title" style="font-size: 1.2em;">RUCIBLE</span>
 		  </a>
-
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <form class="navbar-form navbar-search-form active" role="search">
-	      	</form>
-		  </div>
+		  <ul class="navbar-nav mr-auto">
+		  </ul>
+		    <ul class="navbar-nav my-2 my-lg-0" id="navUserDropdown">
+		      <li class="nav-item dropdown"">
+		        <a class="nav-link" href="#" id="navUser" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		        	<img src="img/profile-sample.png"> &nbsp;&nbsp;
+		          Rayson Lim
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navUser">
+		          <a class="dropdown-item" href="#">Sign Out</a>
+		        </div>
+		      </li>
+		    </ul>
 		</nav>
 	</div>
 	<div class="container-fluid no-margin">
@@ -36,7 +44,7 @@
 				</div>
 			</div>
 			<!-- Begin main detail view -->
-			<div class="col-md-8 col-xs-8 scrollable">
+			<div class="col-md-10 col-xs-8 scrollable" style="z-index: -100; background: #F6F6F8;">
 				<div id="panDashboard" class="pane">
 					Dashboard
 				</div>
