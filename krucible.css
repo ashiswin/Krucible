@@ -38,6 +38,7 @@ html, body {
 
 .side-nav-item {
 	border-left: thick solid #FFFFFF;
+	cursor: pointer;
 }
 
 .side-nav-item > td {
